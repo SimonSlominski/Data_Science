@@ -16,7 +16,7 @@ def draw_circle(event, x, y, flags, param):
         )
 
 
-img = cv2.imread('tesla.jpg')
+img = cv2.imread('images/tesla.jpg')
 
 cv2.namedWindow('image')
 cv2.setMouseCallback('image', draw_circle)

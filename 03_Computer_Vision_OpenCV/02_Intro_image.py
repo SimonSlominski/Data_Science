@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Import and make a copy of original image
-org_img = cv2.imread(filename='python.png')
+org_img = cv2.imread(filename='images/python.png')
 img = org_img.copy()
 
 # Show image
